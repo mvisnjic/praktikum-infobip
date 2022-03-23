@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "name": "praktikum",
+  "version": "1.0.0",
+  "description": "praktikum jest testing",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  }
+}
