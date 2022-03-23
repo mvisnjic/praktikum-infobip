@@ -22,4 +22,10 @@ describe("fizzBuzz", () => {
   test("ako je x=30 vrati fizz", () => {
     expect(fizzBuzz(30)).toBe("FizzBuzz");
   });
+  test("ako je x=7 vrati Suzz", () => {
+    expect(fizzBuzz(7)).toBe("Suzz");
+  });
+  test("ako je x=105 vrati fizz", () => {
+    expect(fizzBuzz(105)).toBe("FizzBuzzSuzz");
+  });
 });
